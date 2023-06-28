@@ -77,13 +77,12 @@ public class BadSolution {
         ListNode listNode2 = new ListNode(9);
         toStringListNode(listNode2);
         ListNode listNode = addTwoNumbersMyCase(listNode1, listNode2);
-        System.out.println("终态:" + listNode.val);
         toStringListNode(listNode);
 
 
     }
 
-    private static void toStringListNode(ListNode listNode) {
+    public static void toStringListNode(ListNode listNode) {
         while (listNode != null) {
             System.out.print(listNode.val);
             if (listNode.next != null) {
