@@ -1,26 +1,24 @@
 package easy.longestCommonPrefix;
 
 public class BestSolution {
+    /**
+     * 看了别人的思路做的：
+     * 找到最长的，然后随机选一个作为初始字符串，每个字符串对比这个结果，一直缩短到公共的部分，一直下去
+     *
+     * @param strs
+     * @return
+     */
+
     public static String longestCommonPrefix(String[] strs) {
-        // TODO 还有问题待完全解决
-        // 找出最长的，然后缩短
+
         String s = strs[0];
         if (s == null || s.length() == 0) {
             return "";
         }
-        while (s.length() > 0) {
-            int i = 0;
-            for (; i < strs.length; ++i) {
-                if (!strs[i].startsWith(s)) {
-                    s = s.substring(0, s.length() - 1);
-                    break;
-                }
+        for (int i = 0; i < strs.length; ++i) {
+            while (!strs[i].startsWith(s)) {
+                s = s.substring(0, s.length() - 1);
             }
-            if (i + 1 == strs.length) {
-                return s;
-            }
-
-
         }
 
 
