@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a150e23f-0ce6-4336-bb4d-f794386be57b" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/medium/addTwoNumbers/BadSolution.java" afterDir="false" />
+    <list default="true" id="a150e23f-0ce6-4336-bb4d-f794386be57b" name="Changes" comment="二分查找">
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/reverse/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,22 +60,38 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="medium.reverse" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BadSolution">
-    <configuration name="BadSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.addTwoNumbers.BadSolution" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="BestSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.longestCommonPrefix.BestSolution" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.addTwoNumbers.*" />
+          <option name="PATTERN" value="easy.longestCommonPrefix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.isvalid.MySolution" />
+      <module name="BabyLeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.isvalid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,11 +100,11 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twosum.Solution" />
+      <option name="MAIN_CLASS_NAME" value="medium.reverse.Solution" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="medium.reverse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="easy.pivotInteger.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.pivotInteger.Solution" />
+    <configuration name="easy.longestCommonPrefix.BadSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.longestCommonPrefix.BadSolution" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.pivotInteger.*" />
+          <option name="PATTERN" value="easy.longestCommonPrefix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,25 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="medium.addTwoNumbers.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.addTwoNumbers.Solution" />
+    <configuration name="solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hard.findMedianSortedArrays.solution" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.addTwoNumbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pivotInteger.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pivotInteger.Solution" />
-      <module name="BabyLeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pivotInteger.*" />
+          <option name="PATTERN" value="hard.findMedianSortedArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,19 +139,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BadSolution" />
-      <item itemvalue="Application.medium.addTwoNumbers.Solution" />
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.easy.pivotInteger.Solution" />
-      <item itemvalue="Application.pivotInteger.Solution" />
+      <item itemvalue="Application.solution" />
+      <item itemvalue="Application.BestSolution" />
+      <item itemvalue="Application.MySolution" />
+      <item itemvalue="Application.easy.longestCommonPrefix.BadSolution" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BadSolution" />
-        <item itemvalue="Application.medium.addTwoNumbers.Solution" />
-        <item itemvalue="Application.easy.pivotInteger.Solution" />
-        <item itemvalue="Application.pivotInteger.Solution" />
         <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.solution" />
+        <item itemvalue="Application.BestSolution" />
+        <item itemvalue="Application.easy.longestCommonPrefix.BadSolution" />
+        <item itemvalue="Application.MySolution" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +165,9 @@
       <updated>1687791836511</updated>
       <workItem from="1687791837884" duration="713000" />
       <workItem from="1687792567188" duration="4076000" />
-      <workItem from="1687878021679" duration="6265000" />
+      <workItem from="1687878021679" duration="6762000" />
+      <workItem from="1687969377240" duration="14322000" />
+      <workItem from="1688312163934" duration="6259000" />
     </task>
     <task id="LOCAL-00001" summary="第一次初始化项目，更新两道easy题目">
       <created>1687795805842</created>
@@ -178,7 +183,35 @@
       <option name="project" value="LOCAL" />
       <updated>1687796462611</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="两数相加，一个不好的解法，值得思考">
+      <created>1687884650347</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687884650348</updated>
+    </task>
+    <task id="LOCAL-00004" summary="两数之和，更换了解法，击败了100%的用户">
+      <created>1687975036827</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687975036827</updated>
+    </task>
+    <task id="LOCAL-00005" summary="公共前缀">
+      <created>1688058681212</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688058681212</updated>
+    </task>
+    <task id="LOCAL-00006" summary="二分查找">
+      <created>1688316583502</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688316583502</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +230,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次初始化项目，更新两道easy题目" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次初始化项目，更新两道easy题目" />
+    <MESSAGE value="两数相加，一个不好的解法，值得思考" />
+    <MESSAGE value="两数之和，更换了解法，击败了100%的用户" />
+    <MESSAGE value="公共前缀" />
+    <MESSAGE value="二分查找" />
+    <option name="LAST_COMMIT_MESSAGE" value="二分查找" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/easy/isvalid/MySolution.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/easy/longestCommonPrefix/BadSolution.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/easy/longestCommonPrefix/BestSolution.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/easy/longestCommonPrefix/BestSolution.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hard/findMedianSortedArrays/solution.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
