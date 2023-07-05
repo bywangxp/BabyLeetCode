@@ -1,6 +1,7 @@
 package medium.addTwoNumbers;
 
-import static medium.addTwoNumbers.BadSolution.toStringListNode;
+
+import static medium.addTwoNumbers.ListNode.toStringListNode;
 
 /**
  * 自己的解法  击败了100%的用户，哈哈

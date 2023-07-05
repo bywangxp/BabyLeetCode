@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a150e23f-0ce6-4336-bb4d-f794386be57b" name="Changes" comment="二分查找">
-      <change afterPath="$PROJECT_DIR$/src/main/java/medium/reverse/Solution.java" afterDir="false" />
+    <list default="true" id="a150e23f-0ce6-4336-bb4d-f794386be57b" name="Changes" comment="反转数字">
+      <change afterPath="$PROJECT_DIR$/src/main/java/easy/mergeTwoLists/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/addTwoNumbers/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/medium/addTwoNumbers/BadSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/addTwoNumbers/BadSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/medium/addTwoNumbers/SolutionGoodCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/addTwoNumbers/SolutionGoodCase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,26 +75,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="BestSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.longestCommonPrefix.BestSolution" />
+  <component name="RunManager" selected="Application.easy.mergeTwoLists.Solution">
+    <configuration name="BadSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.addTwoNumbers.BadSolution" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.longestCommonPrefix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MySolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.isvalid.MySolution" />
-      <module name="BabyLeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.isvalid.*" />
+          <option name="PATTERN" value="medium.addTwoNumbers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +102,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="easy.longestCommonPrefix.BadSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.longestCommonPrefix.BadSolution" />
+    <configuration name="SolutionGoodCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.addTwoNumbers.SolutionGoodCase" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.longestCommonPrefix.*" />
+          <option name="PATTERN" value="medium.addTwoNumbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="easy.mergeTwoLists.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.mergeTwoLists.Solution" />
+      <module name="BabyLeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.mergeTwoLists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,18 +143,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.easy.mergeTwoLists.Solution" />
       <item itemvalue="Application.solution" />
-      <item itemvalue="Application.BestSolution" />
-      <item itemvalue="Application.MySolution" />
-      <item itemvalue="Application.easy.longestCommonPrefix.BadSolution" />
+      <item itemvalue="Application.SolutionGoodCase" />
+      <item itemvalue="Application.BadSolution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.easy.mergeTwoLists.Solution" />
+        <item itemvalue="Application.SolutionGoodCase" />
+        <item itemvalue="Application.BadSolution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.solution" />
-        <item itemvalue="Application.BestSolution" />
-        <item itemvalue="Application.easy.longestCommonPrefix.BadSolution" />
-        <item itemvalue="Application.MySolution" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +170,8 @@
       <workItem from="1687792567188" duration="4076000" />
       <workItem from="1687878021679" duration="6762000" />
       <workItem from="1687969377240" duration="14322000" />
-      <workItem from="1688312163934" duration="6259000" />
+      <workItem from="1688312163934" duration="10015000" />
+      <workItem from="1688574577944" duration="819000" />
     </task>
     <task id="LOCAL-00001" summary="第一次初始化项目，更新两道easy题目">
       <created>1687795805842</created>
@@ -211,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688316583502</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="反转数字">
+      <created>1688404326205</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688404326205</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +245,8 @@
     <MESSAGE value="两数之和，更换了解法，击败了100%的用户" />
     <MESSAGE value="公共前缀" />
     <MESSAGE value="二分查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="二分查找" />
+    <MESSAGE value="反转数字" />
+    <option name="LAST_COMMIT_MESSAGE" value="反转数字" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -263,6 +275,25 @@
           <url>file://$PROJECT_DIR$/src/main/java/hard/findMedianSortedArrays/solution.java</url>
           <line>35</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/easy/mergeTwoLists/Solution.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/easy/mergeTwoLists/Solution.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/addTwoNumbers/SolutionGoodCase.java</url>
+          <line>28</line>
+          <properties class="medium.addTwoNumbers.SolutionGoodCase" method="addTwoNumbers">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
