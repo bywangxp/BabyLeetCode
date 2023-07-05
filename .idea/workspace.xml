@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a150e23f-0ce6-4336-bb4d-f794386be57b" name="Changes" comment="反转数字">
-      <change afterPath="$PROJECT_DIR$/src/main/java/easy/mergeTwoLists/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/medium/addTwoNumbers/ListNode.java" afterDir="false" />
+    <list default="true" id="a150e23f-0ce6-4336-bb4d-f794386be57b" name="Changes" comment="合并链路">
+      <change afterPath="$PROJECT_DIR$/src/main/java/easy/removeElement/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/medium/addTwoNumbers/BadSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/addTwoNumbers/BadSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/medium/addTwoNumbers/SolutionGoodCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/addTwoNumbers/SolutionGoodCase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -75,7 +73,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.easy.mergeTwoLists.Solution">
+  <component name="RunManager" selected="Application.easy.removeElement.Solution">
     <configuration name="BadSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="medium.addTwoNumbers.BadSolution" />
       <module name="BabyLeetCode" />
@@ -128,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hard.findMedianSortedArrays.solution" />
+    <configuration name="easy.removeElement.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.removeElement.Solution" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hard.findMedianSortedArrays.*" />
+          <option name="PATTERN" value="easy.removeElement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,19 +140,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.easy.removeElement.Solution" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.easy.mergeTwoLists.Solution" />
-      <item itemvalue="Application.solution" />
       <item itemvalue="Application.SolutionGoodCase" />
       <item itemvalue="Application.BadSolution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.easy.removeElement.Solution" />
         <item itemvalue="Application.easy.mergeTwoLists.Solution" />
         <item itemvalue="Application.SolutionGoodCase" />
         <item itemvalue="Application.BadSolution" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.solution" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +169,7 @@
       <workItem from="1687878021679" duration="6762000" />
       <workItem from="1687969377240" duration="14322000" />
       <workItem from="1688312163934" duration="10015000" />
-      <workItem from="1688574577944" duration="819000" />
+      <workItem from="1688574577944" duration="3303000" />
     </task>
     <task id="LOCAL-00001" summary="第一次初始化项目，更新两道easy题目">
       <created>1687795805842</created>
@@ -222,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688404326205</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="合并链路">
+      <created>1688576695572</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688576695572</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +251,8 @@
     <MESSAGE value="公共前缀" />
     <MESSAGE value="二分查找" />
     <MESSAGE value="反转数字" />
-    <option name="LAST_COMMIT_MESSAGE" value="反转数字" />
+    <MESSAGE value="合并链路" />
+    <option name="LAST_COMMIT_MESSAGE" value="合并链路" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
