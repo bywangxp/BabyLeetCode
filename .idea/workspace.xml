@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a150e23f-0ce6-4336-bb4d-f794386be57b" name="Changes" comment="移除元素">
-      <change afterPath="$PROJECT_DIR$/src/main/java/easy/fib/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hard/maxScoreWords/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hard/trap/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/medium/subsets/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/medium/threeSum/Solution.java" afterDir="false" />
+    <list default="true" id="a150e23f-0ce6-4336-bb4d-f794386be57b" name="Changes" comment="二分法">
+      <change afterPath="$PROJECT_DIR$/src/main/java/easy/alternateDigitSum/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/combine/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/easy/searchInsert/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/easy/searchInsert/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/medium/subsets/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/subsets/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +77,11 @@
   </component>
   <component name="RunManager" selected="Application.medium.subsets.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="easy.searchInsert.Solution" />
+      <option name="MAIN_CLASS_NAME" value="easy.alternateDigitSum.Solution" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.searchInsert.*" />
+          <option name="PATTERN" value="easy.alternateDigitSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,6 +115,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="medium.combine.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.combine.Solution" />
+      <module name="BabyLeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.combine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="medium.subsets.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="medium.subsets.Solution" />
       <module name="BabyLeetCode" />
@@ -135,33 +141,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="medium.threeSum.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.threeSum.Solution" />
-      <module name="BabyLeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medium.threeSum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.easy.fib.Solution" />
       <item itemvalue="Application.hard.trap.Solution" />
+      <item itemvalue="Application.medium.combine.Solution" />
       <item itemvalue="Application.medium.subsets.Solution" />
-      <item itemvalue="Application.medium.threeSum.Solution" />
       <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.medium.subsets.Solution" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.medium.combine.Solution" />
         <item itemvalue="Application.easy.fib.Solution" />
         <item itemvalue="Application.hard.trap.Solution" />
-        <item itemvalue="Application.medium.threeSum.Solution" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +171,7 @@
       <workItem from="1687878021679" duration="6762000" />
       <workItem from="1687969377240" duration="14322000" />
       <workItem from="1688312163934" duration="10015000" />
-      <workItem from="1688574577944" duration="21624000" />
+      <workItem from="1688574577944" duration="27107000" />
     </task>
     <task id="LOCAL-00001" summary="第一次初始化项目，更新两道easy题目">
       <created>1687795805842</created>
@@ -250,7 +243,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688662585430</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="回溯">
+      <created>1689010564383</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689010564383</updated>
+    </task>
+    <task id="LOCAL-00012" summary="二分法">
+      <created>1689010591005</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689010591005</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +283,9 @@
     <MESSAGE value="反转数字" />
     <MESSAGE value="合并链路" />
     <MESSAGE value="移除元素" />
-    <option name="LAST_COMMIT_MESSAGE" value="移除元素" />
+    <MESSAGE value="回溯" />
+    <MESSAGE value="二分法" />
+    <option name="LAST_COMMIT_MESSAGE" value="二分法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
