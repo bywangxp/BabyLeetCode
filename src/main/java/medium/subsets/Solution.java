@@ -55,9 +55,6 @@ public class Solution {
                 ArrayList<Integer> integers = new ArrayList<>(curr);
                 integers.add(num);
                 newSubsets.add(integers);
-
-
-
             }
             result.addAll(newSubsets);
 

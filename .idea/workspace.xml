@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a150e23f-0ce6-4336-bb4d-f794386be57b" name="Changes" comment="二分法">
-      <change afterPath="$PROJECT_DIR$/src/main/java/easy/alternateDigitSum/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/medium/combine/Solution.java" afterDir="false" />
+    <list default="true" id="a150e23f-0ce6-4336-bb4d-f794386be57b" name="Changes" comment="求子集中补充了迭代的方法">
+      <change afterPath="$PROJECT_DIR$/src/main/java/easy/isPalindrome/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/easy/isPalindromeInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/easy/plusOne/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/easy/singleNumber/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/medium/subsets/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/subsets/Solution.java" afterDir="false" />
     </list>
@@ -75,13 +77,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.medium.subsets.Solution">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.alternateDigitSum.Solution" />
+  <component name="RunManager" selected="Application.easy.singleNumber.Solution">
+    <configuration name="easy.isPalindrome.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.isPalindrome.Solution" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.alternateDigitSum.*" />
+          <option name="PATTERN" value="easy.isPalindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="easy.fib.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.fib.Solution" />
+    <configuration name="easy.plusOne.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.plusOne.Solution" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.fib.*" />
+          <option name="PATTERN" value="easy.plusOne.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hard.trap.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hard.trap.Solution" />
+    <configuration name="easy.singleNumber.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.singleNumber.Solution" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hard.trap.*" />
+          <option name="PATTERN" value="easy.singleNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="medium.combine.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.combine.Solution" />
+    <configuration name="isPalindromeInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.isPalindromeInt" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.combine.*" />
+          <option name="PATTERN" value="easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,19 +144,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.easy.fib.Solution" />
-      <item itemvalue="Application.hard.trap.Solution" />
-      <item itemvalue="Application.medium.combine.Solution" />
+      <item itemvalue="Application.easy.isPalindrome.Solution" />
+      <item itemvalue="Application.easy.plusOne.Solution" />
+      <item itemvalue="Application.easy.singleNumber.Solution" />
+      <item itemvalue="Application.isPalindromeInt" />
       <item itemvalue="Application.medium.subsets.Solution" />
-      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.easy.singleNumber.Solution" />
+        <item itemvalue="Application.easy.plusOne.Solution" />
+        <item itemvalue="Application.isPalindromeInt" />
+        <item itemvalue="Application.easy.isPalindrome.Solution" />
         <item itemvalue="Application.medium.subsets.Solution" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.medium.combine.Solution" />
-        <item itemvalue="Application.easy.fib.Solution" />
-        <item itemvalue="Application.hard.trap.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +173,7 @@
       <workItem from="1687878021679" duration="6762000" />
       <workItem from="1687969377240" duration="14322000" />
       <workItem from="1688312163934" duration="10015000" />
-      <workItem from="1688574577944" duration="27107000" />
+      <workItem from="1688574577944" duration="31820000" />
     </task>
     <task id="LOCAL-00001" summary="第一次初始化项目，更新两道easy题目">
       <created>1687795805842</created>
@@ -257,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689010591005</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="求子集中补充了迭代的方法">
+      <created>1689097729229</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689097729229</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +294,8 @@
     <MESSAGE value="移除元素" />
     <MESSAGE value="回溯" />
     <MESSAGE value="二分法" />
-    <option name="LAST_COMMIT_MESSAGE" value="二分法" />
+    <MESSAGE value="求子集中补充了迭代的方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="求子集中补充了迭代的方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -343,6 +353,16 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/hard/trap/Solution.java</url>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/easy/isPalindrome/Solution.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/easy/plusOne/Solution.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/medium/addTwoNumbers/SolutionGoodCase.java</url>
