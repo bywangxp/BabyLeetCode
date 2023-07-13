@@ -2,6 +2,8 @@ package medium.addTwoNumbers;
 
 import java.math.BigInteger;
 
+import static medium.addTwoNumbers.ListNode.toStringListNode;
+
 /**
  * 一个错误的思路，但是还是给算出来了，过程中还是有学习的 ==
  * 计算性能非常差，属于暴力解题吧
@@ -82,39 +84,10 @@ public class BadSolution {
 
     }
 
-    public static void toStringListNode(ListNode listNode) {
-        while (listNode != null) {
-            System.out.print(listNode.val);
-            if (listNode.next != null) {
-                System.out.print("->");
-            }
-            listNode = listNode.next;
 
-        }
-
-        System.out.println("");
-
-    }
 
 
 }
 
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-
-}
 
