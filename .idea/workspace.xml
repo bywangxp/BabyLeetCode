@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a150e23f-0ce6-4336-bb4d-f794386be57b" name="Changes" comment="puls one">
-      <change afterPath="$PROJECT_DIR$/src/main/java/medium/search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/easy/reverseList/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/removeNthFromEnd/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/rotatedDigits/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +76,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.search">
-    <configuration name="easy.isPalindrome.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.isPalindrome.Solution" />
+  <component name="RunManager" selected="Application.medium.removeNthFromEnd.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.rotatedDigits.Solution" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.isPalindrome.*" />
+          <option name="PATTERN" value="medium.rotatedDigits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="easy.plusOne.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.plusOne.Solution" />
+    <configuration name="easy.reverseList.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.reverseList.Solution" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.plusOne.*" />
+          <option name="PATTERN" value="easy.reverseList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="isPalindromeInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.isPalindromeInt" />
+    <configuration name="medium.removeNthFromEnd.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.removeNthFromEnd.Solution" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="medium.removeNthFromEnd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,19 +143,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.easy.reverseList.Solution" />
+      <item itemvalue="Application.medium.removeNthFromEnd.Solution" />
+      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.search" />
-      <item itemvalue="Application.easy.isPalindrome.Solution" />
-      <item itemvalue="Application.easy.plusOne.Solution" />
       <item itemvalue="Application.easy.singleNumber.Solution" />
-      <item itemvalue="Application.isPalindromeInt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.medium.removeNthFromEnd.Solution" />
+        <item itemvalue="Application.easy.reverseList.Solution" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.search" />
         <item itemvalue="Application.easy.singleNumber.Solution" />
-        <item itemvalue="Application.easy.plusOne.Solution" />
-        <item itemvalue="Application.isPalindromeInt" />
-        <item itemvalue="Application.easy.isPalindrome.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +174,9 @@
       <workItem from="1688312163934" duration="10015000" />
       <workItem from="1688574577944" duration="32100000" />
       <workItem from="1689351058778" duration="4706000" />
+      <workItem from="1689611927976" duration="52000" />
+      <workItem from="1689612090600" duration="4333000" />
+      <workItem from="1689778659943" duration="8031000" />
     </task>
     <task id="LOCAL-00001" summary="第一次初始化项目，更新两道easy题目">
       <created>1687795805842</created>
@@ -305,69 +311,94 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/easy/isvalid/MySolution.java</url>
           <line>68</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/easy/longestCommonPrefix/BadSolution.java</url>
           <line>40</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/easy/longestCommonPrefix/BestSolution.java</url>
           <line>32</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/easy/longestCommonPrefix/BestSolution.java</url>
           <line>18</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/hard/findMedianSortedArrays/solution.java</url>
           <line>35</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/easy/mergeTwoLists/Solution.java</url>
           <line>63</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/easy/mergeTwoLists/Solution.java</url>
           <line>37</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/easy/searchInsert/Solution.java</url>
           <line>25</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/medium/threeSum/Solution.java</url>
           <line>33</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/medium/threeSum/Solution.java</url>
           <line>37</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/hard/trap/Solution.java</url>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/easy/isPalindrome/Solution.java</url>
           <line>12</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/easy/plusOne/Solution.java</url>
           <line>17</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/rotatedDigits/Solution.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/easy/reverseList/Solution.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/easy/reverseList/Solution.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/removeNthFromEnd/Solution.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/removeNthFromEnd/Solution.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/medium/addTwoNumbers/SolutionGoodCase.java</url>
