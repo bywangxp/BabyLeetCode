@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a150e23f-0ce6-4336-bb4d-f794386be57b" name="Changes" comment="puls one">
-      <change afterPath="$PROJECT_DIR$/src/main/java/easy/reverseList/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/medium/removeNthFromEnd/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/medium/rotatedDigits/Solution.java" afterDir="false" />
+    <list default="true" id="a150e23f-0ce6-4336-bb4d-f794386be57b" name="Changes" comment="链表：逆序+删除第N个数">
+      <change afterPath="$PROJECT_DIR$/src/main/java/easy/romanToInt/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/rotateRight/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.medium.removeNthFromEnd.Solution">
+  <component name="RunManager" selected="Application.easy.romanToInt.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="medium.rotatedDigits.Solution" />
       <module name="BabyLeetCode" />
@@ -103,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="easy.singleNumber.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.singleNumber.Solution" />
+    <configuration name="easy.romanToInt.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.romanToInt.Solution" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.singleNumber.*" />
+          <option name="PATTERN" value="easy.romanToInt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.search" />
+    <configuration name="medium.rotateRight.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.rotateRight.Solution" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value="medium.rotateRight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,19 +141,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.easy.romanToInt.Solution" />
+      <item itemvalue="Application.medium.rotateRight.Solution" />
       <item itemvalue="Application.easy.reverseList.Solution" />
       <item itemvalue="Application.medium.removeNthFromEnd.Solution" />
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.search" />
-      <item itemvalue="Application.easy.singleNumber.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.easy.romanToInt.Solution" />
+        <item itemvalue="Application.medium.rotateRight.Solution" />
         <item itemvalue="Application.medium.removeNthFromEnd.Solution" />
         <item itemvalue="Application.easy.reverseList.Solution" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.search" />
-        <item itemvalue="Application.easy.singleNumber.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +174,8 @@
       <workItem from="1689351058778" duration="4706000" />
       <workItem from="1689611927976" duration="52000" />
       <workItem from="1689612090600" duration="4333000" />
-      <workItem from="1689778659943" duration="8031000" />
+      <workItem from="1689778659943" duration="8085000" />
+      <workItem from="1689869525332" duration="5949000" />
     </task>
     <task id="LOCAL-00001" summary="第一次初始化项目，更新两道easy题目">
       <created>1687795805842</created>
@@ -276,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689270216885</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="链表：逆序+删除第N个数">
+      <created>1689787479835</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1689787479835</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +312,8 @@
     <MESSAGE value="二分法" />
     <MESSAGE value="求子集中补充了迭代的方法" />
     <MESSAGE value="puls one" />
-    <option name="LAST_COMMIT_MESSAGE" value="puls one" />
+    <MESSAGE value="链表：逆序+删除第N个数" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表：逆序+删除第N个数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
