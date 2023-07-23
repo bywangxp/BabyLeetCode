@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a150e23f-0ce6-4336-bb4d-f794386be57b" name="Changes" comment="链表：逆序+删除第N个数">
-      <change afterPath="$PROJECT_DIR$/src/main/java/easy/romanToInt/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/medium/rotateRight/Solution.java" afterDir="false" />
+    <list default="true" id="a150e23f-0ce6-4336-bb4d-f794386be57b" name="Changes" comment="链表：旋转链表+计算罗马数字">
+      <change afterPath="$PROJECT_DIR$/src/main/java/easy/hasCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/easy/removeDuplicates/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/LRUCache/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/maxSubArray/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/medium/addTwoNumbers/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/addTwoNumbers/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +68,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -74,13 +80,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.easy.romanToInt.Solution">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.rotatedDigits.Solution" />
+  <component name="RunManager" selected="Application.easy.removeDuplicates.Solution">
+    <configuration name="easy.removeDuplicates.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.removeDuplicates.Solution" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.rotatedDigits.*" />
+          <option name="PATTERN" value="easy.removeDuplicates.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,19 +147,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.easy.removeDuplicates.Solution" />
       <item itemvalue="Application.easy.romanToInt.Solution" />
       <item itemvalue="Application.medium.rotateRight.Solution" />
       <item itemvalue="Application.easy.reverseList.Solution" />
       <item itemvalue="Application.medium.removeNthFromEnd.Solution" />
-      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.easy.removeDuplicates.Solution" />
         <item itemvalue="Application.easy.romanToInt.Solution" />
         <item itemvalue="Application.medium.rotateRight.Solution" />
         <item itemvalue="Application.medium.removeNthFromEnd.Solution" />
         <item itemvalue="Application.easy.reverseList.Solution" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +181,9 @@
       <workItem from="1689611927976" duration="52000" />
       <workItem from="1689612090600" duration="4333000" />
       <workItem from="1689778659943" duration="8085000" />
-      <workItem from="1689869525332" duration="5949000" />
+      <workItem from="1689869525332" duration="6037000" />
+      <workItem from="1689875787568" duration="342000" />
+      <workItem from="1690043980757" duration="5801000" />
     </task>
     <task id="LOCAL-00001" summary="第一次初始化项目，更新两道easy题目">
       <created>1687795805842</created>
@@ -282,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689787479835</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="链表：旋转链表+计算罗马数字">
+      <created>1689875529130</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1689875529130</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +328,8 @@
     <MESSAGE value="求子集中补充了迭代的方法" />
     <MESSAGE value="puls one" />
     <MESSAGE value="链表：逆序+删除第N个数" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表：逆序+删除第N个数" />
+    <MESSAGE value="链表：旋转链表+计算罗马数字" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表：旋转链表+计算罗马数字" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
