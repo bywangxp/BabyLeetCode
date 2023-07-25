@@ -7,9 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a150e23f-0ce6-4336-bb4d-f794386be57b" name="Changes" comment="链表：旋转链表+计算罗马数字">
-      <change afterPath="$PROJECT_DIR$/src/main/java/easy/hasCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/easy/removeDuplicates/Solution.java" afterDir="false" />
+    <list default="true" id="a150e23f-0ce6-4336-bb4d-f794386be57b" name="Changes" comment="链表：链表判断有环+删除链表重复元素">
       <change afterPath="$PROJECT_DIR$/src/main/java/medium/LRUCache/LRUCache.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/medium/maxSubArray/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -80,13 +78,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.easy.removeDuplicates.Solution">
-    <configuration name="easy.removeDuplicates.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.removeDuplicates.Solution" />
+  <component name="RunManager" selected="Application.LRUCache">
+    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.LRUCache.LRUCache" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.removeDuplicates.*" />
+          <option name="PATTERN" value="medium.LRUCache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="easy.reverseList.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.reverseList.Solution" />
+    <configuration name="easy.removeDuplicates.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.removeDuplicates.Solution" />
       <module name="BabyLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.reverseList.*" />
+          <option name="PATTERN" value="easy.removeDuplicates.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,19 +145,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.LRUCache" />
       <item itemvalue="Application.easy.removeDuplicates.Solution" />
       <item itemvalue="Application.easy.romanToInt.Solution" />
       <item itemvalue="Application.medium.rotateRight.Solution" />
-      <item itemvalue="Application.easy.reverseList.Solution" />
       <item itemvalue="Application.medium.removeNthFromEnd.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LRUCache" />
         <item itemvalue="Application.easy.removeDuplicates.Solution" />
         <item itemvalue="Application.easy.romanToInt.Solution" />
         <item itemvalue="Application.medium.rotateRight.Solution" />
         <item itemvalue="Application.medium.removeNthFromEnd.Solution" />
-        <item itemvalue="Application.easy.reverseList.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +181,8 @@
       <workItem from="1689778659943" duration="8085000" />
       <workItem from="1689869525332" duration="6037000" />
       <workItem from="1689875787568" duration="342000" />
-      <workItem from="1690043980757" duration="5801000" />
+      <workItem from="1690043980757" duration="6340000" />
+      <workItem from="1690214444753" duration="12763000" />
     </task>
     <task id="LOCAL-00001" summary="第一次初始化项目，更新两道easy题目">
       <created>1687795805842</created>
@@ -297,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689875529130</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="链表：链表判断有环+删除链表重复元素">
+      <created>1690134234158</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1690134234158</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +335,8 @@
     <MESSAGE value="puls one" />
     <MESSAGE value="链表：逆序+删除第N个数" />
     <MESSAGE value="链表：旋转链表+计算罗马数字" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表：旋转链表+计算罗马数字" />
+    <MESSAGE value="链表：链表判断有环+删除链表重复元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表：链表判断有环+删除链表重复元素" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -422,6 +429,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/medium/removeNthFromEnd/Solution.java</url>
           <line>23</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/LRUCache/LRUCache.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/LRUCache/LRUCache.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/LRUCache/LRUCache.java</url>
+          <line>174</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/LRUCache/LRUCache.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/LRUCache/LRUCache.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/medium/addTwoNumbers/SolutionGoodCase.java</url>
