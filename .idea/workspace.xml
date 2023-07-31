@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a150e23f-0ce6-4336-bb4d-f794386be57b" name="Changes" comment="求子集中补充了迭代的方法">
-      <change afterPath="$PROJECT_DIR$/src/main/java/easy/isPalindrome/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/easy/isPalindromeInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/easy/plusOne/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/easy/singleNumber/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/medium/subsets/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/subsets/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/easy/fib/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/easy/fib/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +53,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/alsoran/projects/BabyLeetCode",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
@@ -77,7 +74,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.easy.singleNumber.Solution">
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.fib.Solution" />
+      <module name="BabyLeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.fib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="easy.isPalindrome.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.isPalindrome.Solution" />
       <module name="BabyLeetCode" />
@@ -130,33 +140,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="medium.subsets.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.subsets.Solution" />
-      <module name="BabyLeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medium.subsets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.easy.isPalindrome.Solution" />
       <item itemvalue="Application.easy.plusOne.Solution" />
       <item itemvalue="Application.easy.singleNumber.Solution" />
       <item itemvalue="Application.isPalindromeInt" />
-      <item itemvalue="Application.medium.subsets.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.easy.singleNumber.Solution" />
         <item itemvalue="Application.easy.plusOne.Solution" />
         <item itemvalue="Application.isPalindromeInt" />
         <item itemvalue="Application.easy.isPalindrome.Solution" />
-        <item itemvalue="Application.medium.subsets.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +171,8 @@
       <workItem from="1687969377240" duration="14322000" />
       <workItem from="1688312163934" duration="10015000" />
       <workItem from="1688574577944" duration="31820000" />
+      <workItem from="1690827099963" duration="24000" />
+      <workItem from="1690827130084" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="第一次初始化项目，更新两道easy题目">
       <created>1687795805842</created>
