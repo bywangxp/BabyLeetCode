@@ -13,13 +13,13 @@ import java.util.Arrays;
 public class Solution {
 
     /**
-     * 三个遍历p1，cur，p2
-     * p1 左边都是0
-     * p1，cur-1 都是 1
+     * 三个遍历p0，cur，p2
+     * p0 左边都是0
+     * p0，cur-1 都是 1
      * p2右边都是2
      * 循环不变量
-     * [0,p1-1] 0
-     * [p1,cur-1] 1
+     * [0,p0-1] 0
+     * [p0,cur-1] 1
      * [p2+1,nums.length-1]
      *
      * @param nums
