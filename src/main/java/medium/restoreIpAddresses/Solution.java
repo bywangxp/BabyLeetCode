@@ -22,8 +22,10 @@ public class Solution {
     }
 
     private static void backTrace(ArrayList<String> result, String s, ArrayList<String> cur, int count, int index) {
+        // 正常3次 把数值组装完成，当到了第四次就直接拿结果了
         if (count == 4 && (index == s.length())) {
             result.add(String.join(".", cur));
+            return;
         } else if (count > 4) {
             return;
         }
